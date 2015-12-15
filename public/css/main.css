@@ -1,0 +1,130 @@
+/** * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/) * http://cssreset.com */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* Box Model Hack */
+* {
+  -moz-box-sizing: border-box;
+  /* Firexfox */
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box;
+  /* IE */ }
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0; }
+
+.mainback {
+  position: absolute; }
+
+img.resize {
+  width: 100%; }
+
+.canvas-frame {
+  padding-top: 75%;
+  position: absolute; }
+
+.canvas {
+  width: 71%;
+  position: absolute;
+  margin-top: 89%;
+  margin-left: 20%;
+  background-color: white;
+  -moz-box-shadow: 0 0 9px #ccc;
+  -webkit-box-shadow: 0 0 9px #ccc;
+  box-shadow: 0 0 9px #ccc; }
+
+.canvas-bg-preview {
+  position: relative;
+  width: 23%;
+  border: 5px solid white;
+  border-radius: 5px;
+  display: block;
+  margin: 8px 0; }
+
+.canvas-bg-preview-group {
+  display: block;
+  border-radius: 5px;
+  width: 45%;
+  position: absolute;
+  margin-top: 102%;
+  margin-left: 5.6%; }
+
+.char {
+  position: relative;
+  width: 7%; }
+
+#chars {
+  position: absolute;
+  margin-top: 128%;
+  margin-left: 20%;
+  z-index: 1; }
+
+.canvas-text {
+  position: absolute;
+  background-color: black;
+  color: white;
+  width: 71%;
+  margin-top: 122%;
+  margin-left: 20%;
+  height: 6%;
+  border-top: 3px solid grey;
+  z-index: 1; }
+
+.input-canvas-text {
+  z-index: 1;
+  position: absolute;
+  width: 35%;
+  margin-top: 128%;
+  margin-left: 55%; }
+
+.text-here {
+  padding: 5px 20px;
+  z-index: 1;
+  color: white; }
+
+@media screen and (max-width: 900px) {
+  .canvas-text {
+    margin-top: 122%;
+    height: 5%; } }
+
+@media screen and (max-width: 670px) {
+  .canvas-text {
+    margin-top: 120%;
+    height: 3%; } }
+
+@media screen and (max-width: 540px) {
+  .canvas-text {
+    margin-top: 121%; } }

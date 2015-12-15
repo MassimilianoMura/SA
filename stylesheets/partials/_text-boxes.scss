@@ -1,0 +1,30 @@
+@import 'modules/colors';
+
+.canvas-text {
+  position:absolute;
+  background-color: $basic-black;
+  color: white;
+  width: 71%;
+  margin-top: 122%;
+  margin-left: 20%;
+  height: 6%;
+  border-top:3px solid grey;
+  z-index: 1;
+}
+
+.input-canvas-text {
+
+  z-index: 1;
+  position:absolute;
+  width: 35%;
+  margin-top: 128%;
+  margin-left: 55%;
+}
+
+.text-here {
+  padding: 5px 20px;
+  z-index: 1;
+  color: $basic-white;
+}
+
+

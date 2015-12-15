@@ -1,0 +1,58 @@
+@import 'modules/colors';
+
+.mainback {
+  position: absolute;
+}
+
+img.resize {
+  width:100%;
+}
+
+.canvas-frame {
+  padding-top: 75%;
+  position: absolute;
+}
+
+.canvas {
+  width: 71%;
+  position: absolute;
+  margin-top: 89%;
+  margin-left: 20%;
+  background-color: $basic-white;
+  -moz-box-shadow: 0 0 9px #ccc;
+  -webkit-box-shadow: 0 0 9px #ccc;
+  box-shadow: 0 0 9px #ccc;
+}
+
+.canvas-bg-preview {
+  position: relative;
+  width: 23%;
+  border: 5px solid $basic-white;
+  border-radius: 5px;
+  display: block;
+  margin: 8px 0;
+}
+
+.canvas-bg-preview-group {
+  display: block;
+  border-radius: 5px;
+  width: 45%;
+  position: absolute;
+  margin-top: 102%;
+  margin-left: 5.6%;
+}
+
+.char {
+  position: relative;
+  width: 7%;
+}
+
+#chars {
+  position: absolute;
+  margin-top: 128%;
+  margin-left: 20%;
+  z-index: 1;
+}
+
+
+
